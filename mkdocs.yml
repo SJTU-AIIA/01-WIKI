@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: SJTU-AIIA Wiki
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search.suggest
+    - content.tooltips
+repo_url: https://github.com/SJTU-AIIA
+nav:
+  - Home: index.md
+  - Projects:
+      - Registry: projects/registry.md
+      - Contribution Guide: projects/contributing.md
+  - API Reference: api.md
