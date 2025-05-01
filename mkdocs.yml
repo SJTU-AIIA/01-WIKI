@@ -56,10 +56,10 @@ repo_url: https://github.com/SJTU-AIIA/sjtu-aiia.github.io
 extra:
   alternate:
     - name: 简体中文
-      link: /
+      link: /wiki/
       lang: zh-CN
     - name: English
-      link: /en/
+      link: /wiki/en/
       lang: en
 
 nav:
