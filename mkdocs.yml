@@ -5,7 +5,7 @@ site_description: 上海交通大学人工智能创新协会 Wiki 知识库
 site_author: SJTU-AIIA 共学部
 
 # Theme
-plugins:
+# plugins:
   # - social
 
 extra_css:
