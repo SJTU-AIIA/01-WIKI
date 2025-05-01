@@ -49,8 +49,8 @@ theme:
     - content.tooltips
 
 # Repository
-repo_name: 'SJTU-AIIA/01-WIKI'
-repo_url: https://github.com/SJTU-AIIA/01-WIKI
+repo_name: 'SJTU-AIIA/wiki'
+repo_url: https://github.com/SJTU-AIIA/wiki
 
 # Contents
 extra:
