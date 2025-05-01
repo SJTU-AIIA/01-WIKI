@@ -49,7 +49,7 @@ theme:
     - content.tooltips
 
 # Repository
-repo_name: 'SJTU-AIIA/01-WIKI'
+repo_name: 'SJTU-AIIA/sjtu-aiia.github.io'
 repo_url: https://github.com/SJTU-AIIA/sjtu-aiia.github.io
 
 # Contents
