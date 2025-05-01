@@ -1,14 +1,74 @@
+# Project Information
 site_name: SJTU-AIIA Wiki
+site_url: https://sjtu-aiia.github.io/wiki
+site_description: 上海交通大学人工智能创新协会 Wiki 知识库
+site_author: SJTU-AIIA 共学部
+
+# Theme
+plugins:
+  # - social
+
+extra_css:
+  - https://chinese-fonts-cdn.deno.dev/packages/lywkpmydb/dist/LXGWWenKaiMonoScreen/result.css
+
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: light blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: LXGW WenKai Mono Screen
+    code: Fira Code
+  language: zh-Hant
   features:
-    - navigation.tabs
+    - navigation.instant # Instant loading
+    - navigation.instant.prefetch # Instant prefetching
+    - navigation.instant.progress # Progress indicator
+    - navigation.instant.preview # Instant previews
+    - navigation.tabs # Navigation tabs
+    - navigation.tabs.sticky # Sticky navigation tabs
+    - navigation.expand # Navigation expansion
+    - navigation.path # Navigation path Breadcrumbs
+    - navigation.indexes # Section index pages
+    - toc.follow # Anchor following
     - search.suggest
     - content.tooltips
-repo_url: https://github.com/SJTU-AIIA
+
+# Repository
+repo_name: 'SJTU-AIIA/01-WIKI'
+repo_url: https://github.com/SJTU-AIIA/01-WIKI
+
+# Contents
+extra:
+  alternate:
+    - name: 简体中文
+      link: /
+      lang: zh-CN
+    - name: English
+      link: /en/
+      lang: en
+
 nav:
   - Home: index.md
+  - Quick Start:
+    - quick_start/quick_start.md
+    - Getting Started with Git: quick_start/git.md
   - Projects:
-      - Registry: projects/registry.md
-      - Contribution Guide: projects/contributing.md
+    - Registry: projects/registry.md
+    - Contribution Guide: projects/contributing.md
   - API Reference: api.md
+  - About: about.md
