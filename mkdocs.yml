@@ -1,6 +1,6 @@
 # Project Information
 site_name: SJTU-AIIA Wiki
-site_url: https://sjtu-aiia.github.io/wiki
+site_url: https://sjtu-aiia.github.io/wiki/zh/
 site_description: 上海交通大学人工智能创新协会 Wiki 知识库
 site_author: SJTU-AIIA 共学部
 
@@ -49,17 +49,17 @@ theme:
     - content.tooltips
 
 # Repository
-repo_name: 'SJTU-AIIA/sjtu-aiia.github.io'
-repo_url: https://github.com/SJTU-AIIA/sjtu-aiia.github.io
+repo_name: 'SJTU-AIIA/wiki'
+repo_url: https://github.com/SJTU-AIIA/wiki
 
 # Contents
 extra:
   alternate:
     - name: 简体中文
-      link: /wiki/zh/
+      link: /zh/
       lang: zh
     - name: English
-      link: /wiki/en/
+      link: /en/
       lang: en
 
 nav:
