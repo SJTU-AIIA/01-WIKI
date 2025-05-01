@@ -33,7 +33,7 @@ theme:
   font:
     text: LXGW WenKai Mono Screen
     code: Fira Code
-  language: zh-Hant
+  language: zh
   features:
     - navigation.instant # Instant loading
     - navigation.instant.prefetch # Instant prefetching
@@ -56,8 +56,8 @@ repo_url: https://github.com/SJTU-AIIA/sjtu-aiia.github.io
 extra:
   alternate:
     - name: 简体中文
-      link: /wiki/
-      lang: zh-CN
+      link: /wiki/zh/
+      lang: zh
     - name: English
       link: /wiki/en/
       lang: en
