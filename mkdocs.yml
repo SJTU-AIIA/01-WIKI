@@ -56,7 +56,7 @@ repo_url: https://github.com/SJTU-AIIA/wiki
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: /wiki/en/
       lang: en
 
 nav:
